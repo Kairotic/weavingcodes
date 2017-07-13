@@ -182,10 +182,10 @@ print(driver.read_all())
 
 
 while 1:
-    yarn = lsys_from_blocks(driver.read_all())
-    #yarn = "RB"
-    #k = kernel_from_blocks(driver.read_all())
-    print(yarn)
+    #yarn = lsys_from_blocks(driver.read_all())
+    yarn = "RB"
+    k = kernel_from_blocks(driver.read_all())
+    #print(yarn)
     screen.fill([0,0,0])
     draw_weave(frame,k,yarn,yarn)
     pygame.display.flip()
