@@ -2,7 +2,8 @@ import Sound.OSC.FD
 import Data.Int
 
 let startosc = do x <- udpServer "192.168.0.2" 8000
-                  d <- dirtStream
+                  (tidal-send-string "(_, _, getNow) <- cpsUtils'")
+                  (d1,_) <- superDirtSetters getNow
                   forkIO $ oscLoop x d
     oscLoop x d = do m <- recvMessage x
                      putStrLn $ show m
