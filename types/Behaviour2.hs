@@ -6,8 +6,8 @@ module Behaviour2 where
 import Data.List
 import Control.Concurrent (threadDelay)
 
--- import Diagrams.Prelude
--- import Diagrams.Backend.SVG.CmdLine
+import Diagrams.Prelude
+import Diagrams.Backend.SVG.CmdLine
 
 
 -- | The weaving actions that we are representing.
