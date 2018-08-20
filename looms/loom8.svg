@@ -665,5 +665,11 @@
        d="m -34.74332,1067.5675 0,53.1484 7.085937,0 0,-15.9453 10.63086,0 0,15.9453 7.0859369,0 0,-53.1484 -24.8027339,0 z m 7.085937,10.6289 10.63086,0 0,15.9453 -10.63086,0 0,-15.9453 z"
        id="rect4227"
        inkscape:connector-curvature="0" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4253"
+       cx="462.38034"
+       cy="1101.2594"
+       r="7.0866141" />
   </g>
 </svg>
