@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
+     inkscape:zoom="0.5"
      inkscape:cx="-106.48018"
-     inkscape:cy="-77.019177"
+     inkscape:cy="85.769517"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -792,7 +792,7 @@
        inkscape:connector-curvature="0" />
     <g
        id="g6899"
-       transform="translate(481.26912,-103.6741)">
+       transform="matrix(0,1,-1,0,894.2134,681.71164)">
       <path
          transform="translate(0,59.527405)"
          id="rect6286-7"
@@ -937,7 +937,7 @@
     <g
        style="display:inline"
        id="g7006-0-2-3"
-       transform="translate(-650.12961,764.54367)">
+       transform="translate(-652.95803,746.15889)">
       <rect
          y="457.51947"
          x="568"
@@ -962,7 +962,7 @@
     </g>
     <g
        id="g7766"
-       transform="matrix(0.70280813,0.71137946,-0.71137946,0.70280813,798.54281,333.63354)">
+       transform="matrix(0.3646721,0.93113601,-0.93113601,0.3646721,1045.2173,713.21227)">
       <g
          id="g7667-0"
          style="display:inline"
