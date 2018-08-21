@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
+     inkscape:zoom="0.35355339"
      inkscape:cx="-639.41703"
-     inkscape:cy="10.680682"
+     inkscape:cy="189.7173"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +48,7 @@
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:snap-bbox-midpoints="false"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:bbox-paths="false"
      inkscape:bbox-nodes="false"
      inkscape:measure-start="-494.14,1640.19"
@@ -1435,9 +1435,21 @@
     </g>
     <path
        style="fill:none;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -728.7793 340.54492 L -728.7793 355.64648 L -709.88477 355.64648 L -709.88477 366.98047 L -736.34375 366.98047 L -736.34375 393.44922 L -724.98047 393.44922 L -724.98047 453.91797 L -736.34375 453.91797 L -736.34375 514.38672 L -724.98047 514.38672 L -724.98047 574.85742 L -736.34375 574.85742 L -736.34375 635.35938 L -724.98047 635.35938 L -724.98047 695.83008 L -736.34375 695.83008 L -764.23828 695.83008 L -854.18555 695.83008 L -932 695.83008 L -932 1055.9219 L -854.18555 1055.9219 L -764.23828 1055.9219 L -626.73828 1055.9219 L -626.73828 877.23828 L -626.73828 340.54492 L -668.32812 340.54492 L -668.32812 355.64648 L -649.43164 355.64648 L -649.43164 366.98047 L -687.22266 366.98047 L -687.22266 340.54492 L -728.7793 340.54492 z M -698.54883 816.76562 L -687.22266 816.76562 L -687.21094 877.23828 L -698.54883 877.23828 L -698.54883 816.76562 z "
+       d="M -698.54883 816.76562 L -687.22266 816.76562 L -687.21094 877.23828 L -698.54883 877.23828 L -698.54883 816.76562 L -698.54883 816.76562 "
+       id="path8766"
+       transform="translate(0,59.527405)" />
+    <path
+       style="fill:none;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -728.7793,340.54492 0,15.10156 18.89453,0 0,11.33399 -26.45898,0 0,26.46875 11.36328,0 0,60.46875 -11.36328,0 0,60.46875 11.36328,0 0,60.4707 -11.36328,0 0,60.50196 11.36328,0 0,60.4707 -11.36328,0 0,39.58398 -161.68164,0 0,70.86524 c 136.32248,0 161.68164,22.11377 161.68164,249.6426 l 11.36328,0 98.24219,0 0,-178.68362 0,-60.46875 0,-476.22461 -41.58984,0 0,15.10156 18.89648,0 0,11.33399 -37.79102,0 0,-26.43555 z"
        transform="translate(0,59.527405)"
-       id="path1084-9-5" />
+       id="path8764"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc" />
+    <path
+       style="fill:none;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1220.4996,1219.2195 0,360.0919 77.8145,0 89.9473,0 39.2578,0"
+       id="path1084-9-5"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -724.97982,815.82652 0,60.47071 -11.3633,0 0,-60.47071 z"
@@ -1485,16 +1497,16 @@
     <rect
        style="fill:none;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect8468-4"
-       width="10.629921"
+       width="11.338583"
        height="88.76651"
-       x="-698.25964"
+       x="-698.61261"
        y="980.19995" />
     <rect
        style="fill:none;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect8468-1-0"
-       width="10.629921"
+       width="11.338583"
        height="88.76651"
-       x="825.05896"
+       x="824.70459"
        y="780.49615"
        transform="matrix(0,1,-1,0,0,0)" />
     <rect
@@ -1502,8 +1514,8 @@
        id="rect8757"
        width="277.69696"
        height="408.17422"
-       x="-1002.6774"
-       y="755.35748" />
+       x="-1465.1252"
+       y="673.33307" />
   </g>
   <g
      inkscape:groupmode="layer"
