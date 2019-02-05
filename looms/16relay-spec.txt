@@ -1,0 +1,21 @@
+Overview:
+1. The 12VDC input requires > 500mA.
+2. The drive to each control input pin must "sink" 3mA when low (low = relay ON).
+
+
+***** Input Power (12 VDC input)*****
+- About 8 mA is required with all relays off.
+- Each relay requires about 30 mA when on.
+- So max supply current is 8 mA + (16 x 30 mA) = 488 mA (actual measured was 500 mA)
+- Because one may use the board's +5 VDC output (2 pins) to power an Arduino/PIC circuit, use a 12V power supply that can provide MORE than 500mA (depending on your circuit's requirements).
+- Note that the switching regulator on the Relay Board should somewhat efficiently (say 70%?) convert the board's 5V power usage to 12 V power input requirements. For example: 200mA at +5VDC (1 Watt) does NOT mean the +12V supply needs to supply an additional 200 mA also. This is because 1 W of power from the +12V supply only requires about 83 mA ( 12 V x 83 mA = 1 W ); however at say 70% efficiency of the 5 V regulator, this goes up to about 120 mA (83 mA / 0.7) but NOT the full 200 mA.
+
+NOTE: The best way to discover what 12 V supply is needed (its max current rating) is to ACTUALLY MEASURE the 12 V input current while using a "test supply" that can more than handle worst case (with all relays ON) then buy the supply that meets your needs. Always use a modern "switching" supply (wall wart) because they are smaller, way more efficient, generate little heat, and normally use much less "vampire power".
+
+- The baord's LM2576 (+5V) voltage regulator is rated at 3 Amps; however, one should not push it this hard. The circuits powered by the 5 V supply on the Relay Board appear to only be the LED side of the opto-isolators. Driving an input control line low turns on an opto-isolator LED ... turning on its relay. Each opto-isolator LED seems to require about 3 mA (for a total of 3 mA x 16 = 48 mA). This should leave you with at least many hundreds of mA available to power your circuits off of the relay board's 5V output pins (two of them on the connector).
+
+***** Input control pins *****
+- Grounding an input control pin (logic low) turns on the associated relay.
+- The circuit driving the input control pin must be able to "sink" (drive logic low) about 3 mA of current (easy for most PIC/Arduino output pins).
+*** CAUTION *** When a pin is NOT driven low, it "floats" to nearly the +5 V that drives the opto-isolators. This means that the driving circuit (Arduino/PIC) must either be also powered by +5V, or if powered by the now common 3.3V (or less!), its output pins must be "5 Volt Tolerant" (see your micro-controller pin specs). Another option is use of a "5V tolerant serial port expander" chip like an MCP23018 (I2C interface) or MCP23S18 (SPI interface) ... where just a few micro-controller pins give you 16 I/O pins. These can be powered by 3.3 V or 5 V. They are a bit complex, but a simple "software bit banged" I2C or SPI interface can be used to control them. Finally, one could use little signal transistors (2N3904) for this isolation from the 5 V (MCU pin -to- a say 2.7K resistor -to- transistor base, emitter to ground, collector to relay board input control pin).
+
